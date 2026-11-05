@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="390" viewBox="0 0 600 390">
+  <rect width="600" height="390" fill="#17202a"/><circle cx="495" cy="75" r="170" fill="#14B8A6" opacity=".16"/>
+  <path d="M380 256V143m44 113V105m44 151v-81m44 81V68" stroke="#FFC400" stroke-width="19" stroke-linecap="round"/>
+  <path d="M363 276h174" stroke="#fff" stroke-opacity=".35" stroke-width="2"/>
+  <rect x="58" y="51" width="52" height="5" rx="3" fill="#14B8A6"/>
+  <text x="58" y="100" fill="#c5d1df" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">FASEG · FICHES DE RÉVISION</text>
+  <text x="58" y="204" fill="#fff" font-family="Arial,sans-serif" font-size="62" font-weight="700">Statistique</text>
+  <text x="58" y="258" fill="#14B8A6" font-family="Arial,sans-serif" font-size="30" font-weight="700">Méthodes &amp; notions</text>
+  <text x="58" y="337" fill="#c1c7c4" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">DONNÉES · CALCUL · ANALYSE</text>
+</svg>

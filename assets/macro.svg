@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="390" viewBox="0 0 600 390">
+  <rect width="600" height="390" fill="#171c26"/><circle cx="510" cy="80" r="170" fill="#14B8A6" opacity=".15"/>
+  <path d="M65 285h465M103 275v-53h72v53m31 0v-97h72v97m31 0V139h72v136m31 0V95h72v180" fill="none" stroke="#FFC400" stroke-width="5" opacity=".8"/>
+  <rect x="58" y="51" width="52" height="5" rx="3" fill="#14B8A6"/>
+  <text x="58" y="100" fill="#c5d1df" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">FASEG · FICHES DE RÉVISION</text>
+  <text x="58" y="194" fill="#fff" font-family="Arial,sans-serif" font-size="55" font-weight="700">Macro</text>
+  <text x="58" y="252" fill="#14B8A6" font-family="Arial,sans-serif" font-size="49" font-weight="700">économie</text>
+  <text x="58" y="337" fill="#c1c7c4" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">CROISSANCE · PRIX · EMPLOI</text>
+</svg>

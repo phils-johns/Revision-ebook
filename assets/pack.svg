@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="390" viewBox="0 0 600 390">
+  <rect width="600" height="390" fill="#131514"/><circle cx="493" cy="67" r="180" fill="#FFC400" opacity=".15"/>
+  <path d="M384 97h137v183H384z" fill="#14B8A6" transform="rotate(8 384 97)" opacity=".8"/>
+  <path d="M354 77h137v183H354z" fill="#ffc400" transform="rotate(-7 354 77)" opacity=".9"/>
+  <path d="M372 103h100v135H372z" fill="#101212" transform="rotate(-7 372 103)"/>
+  <text x="58" y="78" fill="#14B8A6" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">L’OFFRE COMPLÈTE · FASEG L1</text>
+  <text x="58" y="184" fill="#fff" font-family="Arial,sans-serif" font-size="63" font-weight="700">Tout le pack.</text>
+  <text x="58" y="246" fill="#FFC400" font-family="Arial,sans-serif" font-size="42" font-weight="700">Toutes tes matières.</text>
+  <text x="58" y="337" fill="#c1c7c4" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">COMPTA · ÉCO · HEFS · STAT · MATHS</text>
+</svg>

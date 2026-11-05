@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="390" viewBox="0 0 600 390">
+  <rect width="600" height="390" fill="#202018"/><circle cx="500" cy="72" r="170" fill="#FFC400" opacity=".13"/>
+  <path d="M366 222h150M441 146v150M388 175l106 106m0-106L388 281" stroke="#14B8A6" stroke-width="4" opacity=".8"/>
+  <circle cx="441" cy="222" r="88" fill="none" stroke="#FFC400" stroke-width="3" opacity=".55"/>
+  <rect x="58" y="51" width="52" height="5" rx="3" fill="#FFC400"/>
+  <text x="58" y="100" fill="#d5d3c4" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">FASEG · FICHES DE RÉVISION</text>
+  <text x="58" y="204" fill="#fff" font-family="Arial,sans-serif" font-size="62" font-weight="700">Mathématiques</text>
+  <text x="58" y="258" fill="#FFC400" font-family="Arial,sans-serif" font-size="30" font-weight="700">Les outils de ta L1</text>
+  <text x="58" y="337" fill="#c1c7c4" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">FORMULES · MÉTHODES · EXERCICES</text>
+</svg>

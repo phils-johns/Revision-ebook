@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="390" viewBox="0 0 600 390">
+  <rect width="600" height="390" fill="#202015"/><circle cx="500" cy="85" r="170" fill="#FFC400" opacity=".15"/>
+  <path d="m60 287 98-74 83 21 99-117 73 35 112-88" fill="none" stroke="#14B8A6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="340" cy="117" r="8" fill="#14B8A6"/><rect x="58" y="51" width="52" height="5" rx="3" fill="#14B8A6"/>
+  <text x="58" y="100" fill="#e2dcbf" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">FASEG · FICHES DE RÉVISION</text>
+  <text x="58" y="194" fill="#fff" font-family="Arial,sans-serif" font-size="56" font-weight="700">Micro</text>
+  <text x="58" y="252" fill="#FFC400" font-family="Arial,sans-serif" font-size="49" font-weight="700">économie</text>
+  <text x="58" y="337" fill="#c1c7c4" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">CHOIX · MARCHÉ · ÉQUILIBRE</text>
+</svg>

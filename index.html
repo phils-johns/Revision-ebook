@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A0A0A">
+  <meta name="description" content="Réussis ta première année à la FASEG, Université de Lomé, avec des fiches de révision claires et des ebooks PDF accessibles.">
+  <meta name="keywords" content="FASEG, Université de Lomé, révision, ebooks, comptabilité, microéconomie, macroéconomie, PDF">
+  <meta name="author" content="philjohns-DIGITAL">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="philjohns-DIGITAL — Révise malin à la FASEG">
+  <meta property="og:description" content="Des fiches de révision PDF pensées pour les étudiants de première année de la FASEG, Université de Lomé.">
+  <meta property="og:image" content="assets/og-cover.svg">
+  <meta property="og:site_name" content="philjohns-DIGITAL">
+  <title>philjohns-DIGITAL — Révise malin à la FASEG</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#0A0A0A",
+            gold: "#FFC400",
+            aqua: "#14B8A6",
+            paper: "#F7F7F5"
+          },
+          fontFamily: { sans: ["Poppins", "sans-serif"] }
+        }
+      }
+    };
+  </script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-ink font-sans text-white antialiased">
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header sticky top-0 z-50 border-b border-white/10 bg-ink/90 backdrop-blur-xl">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8" aria-label="Navigation principale">
+      <a href="#accueil" class="brand text-lg font-extrabold tracking-tight" aria-label="philjohns-DIGITAL, accueil">
+        <span>philjohns</span><span class="text-gold">-DIGITAL</span><span class="brand-dot">.</span>
+      </a>
+      <button id="menu-toggle" class="menu-toggle rounded-xl border border-white/15 p-2.5 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-gold" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Ouvrir le menu">
+        <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <div id="primary-menu" class="nav-menu">
+        <a href="#accueil">Accueil</a>
+        <a href="#ebooks">Ebooks</a>
+        <a href="#pourquoi">Pourquoi nous</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#ebooks" class="button button-small button-gold">Voir les ebooks</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section id="accueil" class="hero-shell relative overflow-hidden">
+      <div class="hero-glow hero-glow-gold" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-aqua" aria-hidden="true"></div>
+      <div class="relative mx-auto grid max-w-7xl items-center gap-12 px-5 pb-20 pt-16 sm:pt-24 lg:grid-cols-[1.05fr_.95fr] lg:px-8 lg:pb-28 lg:pt-24">
+        <div class="max-w-2xl">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> Spécial première année · FASEG, Lomé</div>
+          <h1 class="mt-6 text-4xl font-extrabold leading-[1.12] tracking-tight sm:text-5xl lg:text-6xl">
+            Révise malin.<br><span class="text-gold">Réussis à ton rythme.</span>
+          </h1>
+          <p class="mt-6 max-w-xl text-base leading-7 text-white/65 sm:text-lg sm:leading-8">
+            Des fiches de révision simples et bien structurées pour t’aider à comprendre l’essentiel et aborder tes examens avec confiance.
+          </p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="#ebooks" class="button button-gold">Voir les ebooks <span aria-hidden="true">→</span></a>
+            <a id="hero-whatsapp" href="https://wa.me/22879905677?text=Bonjour%20philjohns-DIGITAL%2C%20je%20souhaite%20en%20savoir%20plus%20sur%20les%20fiches%20FASEG." target="_blank" rel="noopener" class="button button-outline">
+              <svg aria-hidden="true" width="19" height="19" viewBox="0 0 24 24" fill="none"><path d="M20 11.6a8.3 8.3 0 0 1-12.3 7.3L4 20l1.2-3.5A8.3 8.3 0 1 1 20 11.6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 8.5c.3-.5.6-.5.9-.5.2 0 .4 0 .5.4l.7 1.5c.1.3.1.5-.1.7l-.5.6c-.2.2-.2.4 0 .7.4.7 1 1.3 1.7 1.7.3.2.5.2.7 0l.6-.6c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.5 0 .3 0 .7-.5 1-.5.4-1.1.5-1.7.4-1-.2-2.2-.8-3.4-2-1.2-1.2-1.8-2.4-2-3.4-.1-.6 0-1.2.5-1.7Z" fill="currentColor"/></svg>
+              Contacter sur WhatsApp
+            </a>
+          </div>
+          <div class="hero-stats mt-12 grid grid-cols-3 gap-3 sm:max-w-lg sm:gap-6" aria-label="Nos repères">
+            <div><strong>6</strong><span>matières</span></div>
+            <div><strong>À venir</strong><span>étudiants aidés</span></div>
+            <div><strong>100%</strong><span>format PDF</span></div>
+          </div>
+        </div>
+
+        <div class="hero-art-wrap relative mx-auto w-full max-w-xl" aria-label="Exemple de fiches de révision numériques">
+          <div class="hero-art-card hero-art-back"><div class="art-lines"></div><span>ÉCONOMIE</span></div>
+          <div class="hero-art-card hero-art-front">
+            <div class="art-cover-top"><span class="art-brand">pj<span>.</span></span><span class="art-pill">FASEG · L1</span></div>
+            <div class="art-cover-content">
+              <span class="art-kicker">FICHES DE RÉVISION</span>
+              <h2>Comprendre.<br><em>Retenir.</em><br>Réussir.</h2>
+              <div class="art-cover-rule"></div>
+              <span class="art-subject">ÉCONOMIE · COMPTABILITÉ · MATHS</span>
+            </div>
+            <div class="art-cover-bottom"><span>UNIVERSITÉ DE LOMÉ</span><span>ÉDITION ÉTUDIANTE</span></div>
+          </div>
+          <div class="hero-float-tag"><span class="float-icon">↗</span><span><b>Prêt à réviser</b><small>PDF accessible partout</small></span></div>
+          <div class="hero-float-spark" aria-hidden="true">✳</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ebooks" class="section-light px-5 py-20 text-ink sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">TA BOÎTE À OUTILS</span>
+            <h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Les essentiels pour ta L1.</h2>
+            <p class="mt-3 max-w-xl text-sm leading-6 text-ink/60 sm:text-base">Choisis une matière et avance pas à pas, avec des ressources conçues pour réviser plus efficacement.</p>
+          </div>
+          <span class="heading-stamp"><span>FASEG</span><small>UNIVERSITÉ DE LOMÉ</small></span>
+        </div>
+
+        <div id="subject-filters" class="filter-bar mt-9 flex gap-2 overflow-x-auto pb-2" role="group" aria-label="Filtrer les ebooks par matière">
+          <button class="filter-chip is-active" type="button" data-filter="Tout" aria-pressed="true">Tout</button>
+          <button class="filter-chip" type="button" data-filter="Compta" aria-pressed="false">Compta</button>
+          <button class="filter-chip" type="button" data-filter="Micro" aria-pressed="false">Micro</button>
+          <button class="filter-chip" type="button" data-filter="Macro" aria-pressed="false">Macro</button>
+          <button class="filter-chip" type="button" data-filter="HEFS" aria-pressed="false">HEFS</button>
+          <button class="filter-chip" type="button" data-filter="Stat" aria-pressed="false">Stat</button>
+          <button class="filter-chip" type="button" data-filter="Maths" aria-pressed="false">Maths</button>
+        </div>
+
+        <div id="product-grid" class="product-grid mt-7" aria-live="polite"></div>
+
+        <div class="pack-banner mt-12 overflow-hidden rounded-3xl">
+          <div class="pack-orbit" aria-hidden="true"></div>
+          <div class="relative grid items-center gap-7 p-7 sm:p-9 md:grid-cols-[1fr_auto] md:px-12">
+            <div>
+              <span class="pack-label">LE BON PLAN POUR TOUTE L’ANNÉE</span>
+              <h3 class="mt-3 text-2xl font-bold sm:text-3xl">Le pack complet FASEG L1</h3>
+              <p class="mt-2 max-w-xl text-sm leading-6 text-white/65">Toutes les matières dans un seul pack. Plus pratique pour organiser tes révisions, plus avantageux que les ebooks à l’unité.</p>
+            </div>
+            <div class="flex flex-col items-start gap-3 md:items-end">
+              <div class="flex items-center gap-3"><span id="pack-old-price" class="text-sm text-white/45 line-through"></span><strong id="pack-price" class="text-2xl text-gold"></strong></div>
+              <a id="pack-link" class="button button-gold" href="https://chariow.com" target="_blank" rel="noopener">Découvrir le pack <span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pourquoi" class="px-5 py-20 sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="mx-auto max-w-2xl text-center">
+          <span class="section-kicker text-aqua">POURQUOI PHILJOHNS-DIGITAL</span>
+          <h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Le soutien qu’il te faut pour avancer.</h2>
+          <p class="mt-4 text-sm leading-6 text-white/60 sm:text-base">Du contenu pensé pour tes révisions, sans compliquer ton quotidien d’étudiant.</p>
+        </div>
+        <div class="benefit-grid mt-12">
+          <article class="benefit-card"><span class="benefit-icon icon-gold" aria-hidden="true">✳</span><h3>Résumés clairs</h3><p>Les notions essentielles organisées pour t’aider à comprendre et mémoriser.</p></article>
+          <article class="benefit-card"><span class="benefit-icon icon-aqua" aria-hidden="true">⌖</span><h3>Conçu pour la FASEG</h3><p>Des fiches pensées autour des matières et du programme de première année.</p></article>
+          <article class="benefit-card"><span class="benefit-icon icon-gold" aria-hidden="true">↓</span><h3>PDF instantané</h3><p>Après ton achat, retrouve tes documents numériques et révise où tu veux.</p></article>
+          <article class="benefit-card"><span class="benefit-icon icon-aqua" aria-hidden="true">₣</span><h3>Prix étudiant</h3><p>Des ressources numériques à prix accessible, à l’unité ou en pack.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light px-5 py-20 text-ink sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="section-heading">
+          <div><span class="section-kicker">C’EST SIMPLE</span><h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">De ton choix à tes révisions.</h2></div>
+          <p class="max-w-sm text-sm leading-6 text-ink/60">Quelques clics, et tes fiches sont prêtes à t’accompagner.</p>
+        </div>
+        <div class="steps-grid mt-11">
+          <article class="step-card"><span class="step-number">01</span><span class="step-icon" aria-hidden="true">⌕</span><h3>Choisis</h3><p>Sélectionne la matière qu’il te faut ou opte pour le pack complet.</p></article>
+          <article class="step-card"><span class="step-number">02</span><span class="step-icon" aria-hidden="true">↗</span><h3>Paie sur Chariow</h3><p>Finalise ta commande en toute simplicité sur la page de paiement.</p></article>
+          <article class="step-card"><span class="step-number">03</span><span class="step-icon" aria-hidden="true">↓</span><h3>Reçois ton PDF</h3><p>Accède à ton ebook et commence à réviser sur ton téléphone ou ordinateur.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="px-5 py-20 sm:py-24 lg:px-8">
+      <div class="mx-auto max-w-7xl">
+        <div class="section-heading">
+          <div><span class="section-kicker text-aqua">LE MOT DES ÉTUDIANTS</span><h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Bientôt, leurs retours.</h2></div>
+          <p class="max-w-sm text-sm leading-6 text-white/55">Les témoignages seront ajoutés après les premiers retours vérifiés des étudiants.</p>
+        </div>
+        <div class="testimonial-placeholder mt-9 rounded-3xl border border-white/10 bg-white/[0.03] p-7 sm:p-9">
+          <span class="quote-mark" aria-hidden="true">“</span>
+          <div><p class="text-base font-medium text-white/80">Tu as déjà utilisé nos fiches ? Ton retour aidera d’autres étudiants à choisir leurs outils de révision.</p><span class="mt-3 block text-sm text-white/45">Les témoignages authentiques seront publiés ici.</span></div>
+          <a id="testimonial-link" class="button button-outline mt-5 sm:mt-0" href="https://wa.me/22879905677?text=Bonjour%20philjohns-DIGITAL%2C%20je%20souhaite%20partager%20mon%20avis%20sur%20vos%20fiches." target="_blank" rel="noopener">Partager mon avis <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section-light px-5 py-20 text-ink sm:py-24 lg:px-8">
+      <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[.8fr_1.2fr]">
+        <div><span class="section-kicker">QUESTIONS FRÉQUENTES</span><h2 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Tu veux en savoir plus ?</h2><p class="mt-4 max-w-sm text-sm leading-6 text-ink/60">Voici quelques réponses pour t’aider à démarrer.</p></div>
+        <div class="faq-list">
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-1">Comment recevoir mon ebook après l’achat ?<span class="faq-plus" aria-hidden="true">+</span></button></h3><div id="faq-answer-1" class="faq-answer" hidden><p>Le paiement et la livraison sont gérés sur Chariow. Suis les instructions affichées après ton paiement pour accéder à ton PDF.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-2">Sur quels appareils puis-je lire les fiches ?<span class="faq-plus" aria-hidden="true">+</span></button></h3><div id="faq-answer-2" class="faq-answer" hidden><p>Les fichiers PDF peuvent être ouverts sur un smartphone, une tablette ou un ordinateur avec une application de lecture PDF.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-3">Les fiches remplacent-elles les cours ?<span class="faq-plus" aria-hidden="true">+</span></button></h3><div id="faq-answer-3" class="faq-answer" hidden><p>Non. Elles servent de support de révision et ne remplacent ni les cours, ni les consignes officielles de tes enseignants.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-4">Puis-je acheter plusieurs matières à la fois ?<span class="faq-plus" aria-hidden="true">+</span></button></h3><div id="faq-answer-4" class="faq-answer" hidden><p>Oui, tu peux choisir des ebooks à l’unité ou consulter l’offre pack complet présentée dans la section Ebooks.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-answer-5">Comment poser une question avant d’acheter ?<span class="faq-plus" aria-hidden="true">+</span></button></h3><div id="faq-answer-5" class="faq-answer" hidden><p>Écris-nous sur WhatsApp via le bouton de contact. Vérifie que le numéro officiel est bien configuré avant la mise en ligne.</p></div></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="px-5 pb-7 pt-14 lg:px-8">
+    <div class="mx-auto max-w-7xl">
+      <div class="footer-main">
+        <div class="max-w-sm">
+          <a href="#accueil" class="brand text-lg font-extrabold tracking-tight"><span>philjohns</span><span class="text-gold">-DIGITAL</span><span class="brand-dot">.</span></a>
+          <p class="mt-4 text-sm leading-6 text-white/55">Des ressources numériques pour t’accompagner dans ta première année à la FASEG, Université de Lomé.</p>
+        </div>
+        <div><h2 class="footer-title">Navigation</h2><div class="footer-links"><a href="#ebooks">Les ebooks</a><a href="#pourquoi">Pourquoi nous</a><a href="#faq">FAQ</a></div></div>
+        <div><h2 class="footer-title">Nous contacter</h2><div class="footer-links"><a id="footer-whatsapp" href="https://wa.me/22879905677?text=Bonjour%20philjohns-DIGITAL" target="_blank" rel="noopener">WhatsApp</a><a href="mailto:philjohnspro@gmail.com">philjohnspro@gmail.com</a></div></div>
+        <div><h2 class="footer-title">Réseaux sociaux</h2><div class="footer-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook <span aria-hidden="true">↗</span></a></div></div>
+      </div>
+      <div class="footer-bottom mt-12 border-t border-white/10 pt-5"><span>© <span id="current-year"></span> philjohns-DIGITAL. Tous droits réservés.</span><span>Fait pour les étudiants, à Lomé <span class="text-gold">✳</span></span></div>
+    </div>
+  </footer>
+
+  <a id="floating-whatsapp" href="https://wa.me/22879905677?text=Bonjour%20philjohns-DIGITAL%2C%20je%20souhaite%20en%20savoir%20plus." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contacter philjohns-DIGITAL sur WhatsApp">
+    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 11.6a8.3 8.3 0 0 1-12.3 7.3L4 20l1.2-3.5A8.3 8.3 0 1 1 20 11.6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 8.5c.3-.5.6-.5.9-.5.2 0 .4 0 .5.4l.7 1.5c.1.3.1.5-.1.7l-.5.6c-.2.2-.2.4 0 .7.4.7 1 1.3 1.7 1.7.3.2.5.2.7 0l.6-.6c.2-.2.4-.2.7-.1l1.5.7c.3.1.4.3.4.5 0 .3 0 .7-.5 1-.5.4-1.1.5-1.7.4-1-.2-2.2-.8-3.4-2-1.2-1.2-1.8-2.4-2-3.4-.1-.6 0-1.2.5-1.7Z" fill="currentColor"/></svg>
+  </a>
+  <script src="script.js"></script>
+</body>
+</html>
