@@ -4,7 +4,7 @@ const products = [
   { id: 2, title: "Microéconomie – Fiches de révision", subject: "Micro", price: "2 000 FCFA", cover: "assets/micro.svg", desc: "Les notions clés de microéconomie regroupées pour réviser l’essentiel.", url: "https://chariow.com" },
   { id: 3, title: "Macroéconomie – Fiches de révision", subject: "Macro", price: "2 000 FCFA", cover: "assets/macro.svg", desc: "Un support synthétique pour mieux retenir les fondamentaux de macro.", url: "https://chariow.com" },
   { id: 4, title: "HEFS – Fiches de révision", subject: "HEFS", price: "1 500 FCFA", cover: "assets/hefs.svg", desc: "Retrouve les grands repères du cours dans des fiches structurées.", url: "https://chariow.com" },
-  { id: 5, title: "Statistique – Fiches de révision", subject: "Stat", price: "2 000 FCFA", cover: "assets/stat.svg", desc: "Révise les méthodes et notions de statistique à ton rythme.", url: "https://chariow.com" },
+  { id: 5, title: "Statistique – Fiches de révision", subject: "Stat", price: "2 000 FCFA", cover: "assets/stat.svg", desc: "Révise les méthodes et notions de statistique à ton rythme.", url: "https://acsypzdc.mychariow.store/prd_f5bu5pm0" },
   { id: 6, title: "Mathématiques – Fiches de révision", subject: "Maths", price: "2 000 FCFA", cover: "assets/maths.svg", desc: "Les outils mathématiques utiles à ta première année, réunis au même endroit.", url: "https://chariow.com" },
   { id: 7, title: "Pack complet FASEG L1", subject: "Pack", price: "8 000 FCFA", oldPrice: "11 500 FCFA", cover: "assets/pack.svg", desc: "Le pack numérique pour retrouver toutes les matières de première année.", url: "https://chariow.com" }
 ];
